@@ -1,0 +1,206 @@
+	/* CSS coded sorted alphabetically */
+	
+   /* HTML Elements -- sorted alphabetically - Selectors grouped for ID based selectors - Selectors grouped for class based selectors*/ 
+
+    * {
+	font-family: 'Open Sans', sans-serif;
+	color: #044E1B;
+	text-align: center;
+	font-size:95%;
+	box-sizing: border-box;
+	}
+
+	a {
+		text-decoration:none;	
+	}
+
+	article p {
+		text-align: justify;
+	}
+
+	body{
+	/* background-color: #9A0507; */
+	   background-color: white; 
+	}
+
+	blockquote{
+		float:right;
+		width: 8%;
+		font-size: 12px;
+		font-family: "Open Sans", sans-serif;
+		color: #592A0F;
+		margin: 1.6% 2.8% 0.4% 0%	;
+		padding-top: 0.07986%;
+		padding-bottom: 0.08%;
+		border-top: 1px solid #665544;
+		border-bottom: 1px solid #665544;
+	}
+
+	footer{
+		margin: 0px auto 55px auto;
+		padding: 48px;
+		clear:both;
+		display: block;
+	}
+
+	h1{
+		font-family: "Sansita", sans-serif;
+		font-size: 4em; 
+		/* 500% or 15vh or 15 vw  
+			https://developer.mozilla.org/en-US/docs/Web/CSS/font-size 
+		*/
+	    padding-top: 4px;
+	    margin: 0px;
+	    text-align: center;
+	}
+
+	h1 a{
+		font-family: "Sansita", sans-serif;
+	    font-size: 16px;
+		/* 5vh  45.8333333333333%
+			https://developer.mozilla.org/en-US/docs/Web/CSS/font-size 
+		*/
+	}
+
+	h4{
+		font-size: 26px;
+		text-align: left;
+		border-bottom: 1px solid #665544;
+	}
+
+	header{
+		background-image: url("../images/plaid.jpeg");
+		position: sticky;
+		top: 0px;
+		z-index: 33;
+	}
+
+	header h1{
+		color: #CBD3A9;
+		font-family: "Sansita", sans-serif;
+		text-decoration: none;
+	}
+
+	
+	li {
+		font-family: "open sans", sans-serif;
+		display: inline;
+		padding: 1px;
+	    text-decoration:none;
+	}
+
+	nav a{
+		color: #CBD3A9;
+		font-family: "Sansita", sans-serif;
+		text-decoration: none;
+	} 
+	
+	nav {
+		padding-bottom: 19.2px;
+		clear:both;
+		display: block;
+		margin:auto;
+		}
+	
+	section{
+		color: red;
+	}
+	
+
+/* IDs */
+
+	#blog h2{
+		font-family: "Sansita", sans-serif;
+		font-size: 20px;
+	}
+
+	#blog p{
+		font-size: 26px;
+		text-align: justify;
+	}
+	
+	#center{
+		/* set width or max-width*/
+	}
+
+	#date{
+		float:left;
+		background-color: #420D0D;
+		margin-left: -1px;
+		width: 110px;
+		color: white;
+		padding: 10px;
+	}
+
+	#blog{
+		padding-bottom: 19.2px;
+	}
+	
+
+	#other a{
+		text-decoration:none;
+	    font-style: bold;}
+
+	
+	p#date:first-letter { 
+		font-size: 2em; 
+		font-weight: normal;
+		}
+
+
+	#title {
+		clear:both;
+		display: block;
+		margin:auto;
+		padding-left: 28.8px;
+	}
+
+	#page {
+		background-color: #f5faf5;
+		margin: 26px auto;
+		width: 90%;
+	}
+
+	#main {
+		width: 60%;
+		float:left;
+		padding: 0px;
+		margin:0px;
+ 	}
+
+	#other {
+        width: 40%;
+        float:right;
+        padding: 0px;
+        margin:0px;
+	}
+
+/* Classes */
+
+	article .redtitles{
+		font-family: arial, sans-serif;
+	}
+
+	article .redtitles {
+		text-align: justify;
+	}
+
+	.av{
+		/* set width or max-width*/
+		max-width: 100%;
+		overflow:hidden;
+	}
+
+	.redtitles{
+		font-family: 'Open Sans', sans-serif;
+		color:#420D0D;
+		font-weight: bold;
+		font-size: 19px;
+	}
+
+	.sidered{
+		  font-size: 50px;
+		  margin-top: 0px;
+	}
+
+

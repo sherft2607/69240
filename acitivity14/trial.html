@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+  <style>
+    .listitem {
+        color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>About Me</h1>
+  <ul>
+    <li>Name: <span id="name"></span> </li>
+    <li>Hobbies: <span id="hobbies"></span> </li>
+    <li>Hometown: <span id="hometown"></span> </li>
+  </ul>
+
+  <script>
+    document.getElementById("name").innerHTML = "Shandon Herft";
+    document.getElementById("hobbies").innerHTML = "Concerts, Movies, Gaming";
+    document.getElementById("hometown").innerHTML = "Mumbai, India / Dubai, U.A.E";
+
+    for (let i = 0; i <= 2; i++) {
+      document.getElementsByTagName('li')[i].setAttribute("class", "listitem");
+    }
+    
+  </script>
+
+</body>
+</html>

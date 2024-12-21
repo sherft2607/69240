@@ -1,0 +1,54 @@
+<style>
+    .font {
+        color: rgb(0, 0, 0);
+    }
+    /* color name */
+    h1 {
+        color: rgb(234, 234, 234);
+        font-family: Arial;
+        font-size: 12px;
+        text-transform: uppercase;}
+    @font-face {
+        font-family: 'ChunkFiveRegular';
+        src: url('fonts/chunkfive.eot');}
+    h2{
+    font-family: ChunkFiveRegular, Georgia, serif;}
+    .bold {
+        font-weight: bold;
+        font-style: italic;}
+    body {
+        background-image: url("oranges.jpg");
+        color: white;
+        padding: 20px;}
+    p.opacity {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        margin: 20px;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.5);}
+    li.border {
+        width: 200px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #0088dd;
+        margin: 10px auto 10px auto;
+        padding: 10px;}
+    li.none {
+        display: none;}
+    li.hidden {
+        visibility: hidden;}
+    a {
+        text-decoration: none;}
+    ul > li {
+        border-top: 5px solid red;
+        }
+    .red ul{
+        color: red;
+    }
+    p[class~="opacity"] {
+        padding: 2px;
+    }
+</style>
